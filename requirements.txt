@@ -1,0 +1,6 @@
+# AWS SDK (included in Lambda Python runtime; pin for local dev)
+boto3>=1.34.0,<2.0.0
+botocore>=1.34.0,<2.0.0
+
+# RDS examples (package with deployment ZIP or Lambda Layer)
+mysql-connector-python>=8.3.0,<9.0.0
